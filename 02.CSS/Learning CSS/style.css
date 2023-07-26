@@ -1,0 +1,13 @@
+#section1:hover{
+      background-color: rgb(166, 186, 203);
+}
+#section1 h1{
+      color: rgb(147, 234, 24);
+}
+#pera-style{
+      color: chocolate;
+}
+p:hover{
+      
+      color: coral;
+}
