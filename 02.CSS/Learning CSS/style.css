@@ -1,13 +1,43 @@
-#section1:hover{
-      background-color: rgb(166, 186, 203);
+.card{
+      margin: 20px;
+      box-sizing: border-box;
+      width: 250px;
+      height: auto;
+      box-shadow: 2px 2px 2px rgb(24, 23, 24);
+      background-color: black;
 }
-#section1 h1{
-      color: rgb(147, 234, 24);
+.card:hover{
+      box-shadow: 5px 5px 5px;
 }
-#pera-style{
-      color: chocolate;
+.img{
+      width: 250px;
+      height: 200px;
 }
-p:hover{
+
+.card-body{
+        padding: 10px;
+        background-color: black;
+}
+.card-body .card-title{
+      font-size: 25px;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: blanchedalmond;
       
-      color: coral;
 }
+.card-body .card-desk{
+      text-align: justify;
+      background-color: black;
+      color: white;
+      
+}
+.card-container{
+      background-color: dimgrey;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      padding: 10px 0px;
+      justify-content: center;
+      align-items: center;
+}
+
